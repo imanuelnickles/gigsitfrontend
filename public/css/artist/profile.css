@@ -1,0 +1,11 @@
+.artistPic{
+	width:100px;
+	height:100px;
+}
+.usernameArea{
+	width: auto;
+}
+.bioArea{
+	width: auto;
+	resize: vertical;
+}

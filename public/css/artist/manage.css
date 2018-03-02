@@ -1,0 +1,21 @@
+.add-new-album{
+	margin-bottom: 1.5%;
+}
+.new-album-button,.new-album-button:focus{
+	background-color: black ;
+	color: #FFCC33;
+	
+}
+.new-album-button:hover{
+	background-color: #FFCC33 ;
+	color: black ;
+}
+.edit-delete-album{
+	margin-bottom: 3px;
+}
+.edit-delete-album>.new-album-button{
+	width:100px;
+}
+.album-detail{
+	margin-bottom: 2%;
+}

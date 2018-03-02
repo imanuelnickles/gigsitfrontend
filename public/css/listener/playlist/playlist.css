@@ -1,0 +1,25 @@
+.playlist-text{
+	color:white;
+    font-family: "Roboto";
+   	font-weight: 400;
+}
+.playlist-text:hover,.playlist-text:focus{
+	color:#FFCC33;
+	text-decoration: none;
+}
+
+.playlist-detail-text{
+	color:#FFCC33;
+    font-family: "Roboto";
+   	font-weight: 400;
+}
+.playlist-detail-title{
+	color:white;
+    font-family: "Roboto";
+   	font-weight: 400;
+  }
+.no-song{
+  margin-top: 5%;
+  
+  text-align: center;
+}

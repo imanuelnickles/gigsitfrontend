@@ -1,0 +1,282 @@
+
+.AlbumContainer
+{
+	position:absolute;
+	background:#262626;
+	margin-left:0px;
+	margin-top: -40px;
+	padding:8px 15px 5px 15px;
+	width:auto;
+	height:auto;
+	border-radius:10%;
+	box-shadow: 2px 3px 2px black;
+}
+
+
+/*Play button*/
+#songPlay{
+
+}
+/*Pause button*/
+#songPause{
+
+}
+/*Stop button*/
+#songStop{
+
+}
+/*Play/Pause button*/
+#songPlayPause{
+	width: 100%;
+}
+/*Song location slider*/
+#songSlider{
+	margin:10px 0px 10px 15px;
+    width: 500px;
+    height: 10px;
+ 	z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/*Track progress bar*/
+#trackProgress{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FFCC33;
+}
+/*Volume Up Button*/
+#volumeUp{
+
+}
+/*Volume Down Button*/
+#volumeDown{
+
+}
+/*Volume Meter*/
+#volumeMeter{
+    margin:10px 10px 10px 12px;
+    width: 5px;
+    height: 100px;
+ 	z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+}
+ 
+/*Volume Location Meter*/
+#volumeStatus{
+	width: 5px;
+    height: 0px;
+    background-color: red;
+ }
+/*Song Time*/
+#songTime{
+	color: white;
+	margin:50px 150px 0px 5px;
+	width: 80px;
+	position: absolute;
+}
+/*Playhead*/
+#playhead{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	
+	background: black;
+}
+#volumehead
+{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin-left: -2px;
+	border-radius: 50%;
+	
+	background: black;
+}
+
+/*Artist*/
+.artist-container{
+	margin-left: 120px;
+	
+}
+.artist-name
+{
+	height: 30px !important;
+	margin-top: -5px;
+	font-weight: 300 !important;
+	font-size: 15px !important;
+}
+/*Song*/
+.song-control-container{
+	margin-top: 15px;
+}
+.song-control-container>a{
+	height: 10px;
+	width: 40px;
+}
+.song-name
+{
+	height: 30px !important;
+	margin: -10px 0px 0px 0px !important;
+	font-weight: 100 !important;
+	font-size: 12px !important;
+}
+.shuffle-song{
+	margin-left: -130px;
+}
+.volume-song{
+	margin-left: -90px;
+}
+.favorite-song{
+	margin-left: -50px;
+}
+
+#favoriteImage:hover{
+	content:url('../picture/musicplayer/favorite1.png');
+}
+#previousImage:hover{
+	content:url('../picture/musicplayer/previous1.png');
+}
+#nextImage:hover{
+	content:url('../picture/musicplayer/forward1.png');
+}
+.pause:hover{
+	content:url('../picture/musicplayer/pause1.png');
+}
+.play:hover{
+	content:url('../picture/musicplayer/play1.png');
+}
+.volume:hover{
+	content:url('../picture/musicplayer/volume1.png');
+}
+/*.shuffle:hover{
+	content:url('../picture/musicplayer/shuffle1.png');
+}*/
+
+/*Music Control*/
+.right-content{
+	background: red !important;
+}
+.song-control>img{
+	width: 20px;
+}
+
+.music-control-container{
+	margin:-13px 0px 0px 0px;
+	width: 30px !important;
+	height: 30px !important;
+	position: absolute;
+}
+.music-play-pause{
+	margin:-23px 0px 0px 30px;
+	width: 80px !important;
+}
+.music-control-link{
+	margin:22px 0px 0px 0px;
+	width: 30px !important;
+	height: 30px !important;
+	width: 100% !important;
+}
+.music-control-song{
+	width: 30px;
+}
+.border-color{
+	border: none;
+}
+.pop-playlist{
+	margin: 0px 0px 0px 70px;
+	padding: 0px 0px 0px 40px;
+	height: 75px;
+	border-left: 5px solid #999999;
+}
+.pop-playlist-icon
+{
+
+	margin-top: 10px;
+	width: 40px;
+}
+.pop-playlist-icon:hover
+{
+	content:url('../picture/musicplayer/playlist1.png');
+}
+.VolumeSlider{
+	width: 30px;
+	position: absolute;
+	background: #262626; /* For browsers that do not support gradients */
+ 	background: -webkit-linear-gradient(right,#262626,black, #262626); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right,#262626, black, #262626); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(right,#262626, black, #262626); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(right,#262626, black, #262626); /* Standard syntax */
+	height: 120px;
+	margin-left: -80px;
+	margin-top: -135px;
+	
+}
+#vols{
+	 -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Safari */
+    transform: rotate(270deg);
+    height: 100px;
+   margin-top:-200px;
+   margin-left: -80px;
+  }
+#range-container{
+	background-color: blue;
+	width: 100px;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 90px;
+	z-index: 100;
+}
+.shuffleBar{
+	background: grey;
+	height: 50px;
+	width: 30px;
+	position: absolute;
+	margin-left: -120px;
+	margin-top: -65px;
+	background: #262626; /* For browsers that do not support gradients */
+ 	background: -webkit-linear-gradient(right,#262626,black, #262626); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right,#262626, black, #262626); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(right,#262626, black, #262626); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(right,#262626, black, #262626); /* Standard syntax */
+}
+#shuffle-container{
+	
+	height: 60px;
+	width: 30px;
+	position: absolute;
+	margin-left: 595px;
+	margin-top: -50px;
+	z-index: 1;
+}
+.shuffle-mode{
+	width: 30px;
+	width: 30px;
+	z-index: 2;
+}
+.loop{
+	height: 25px;
+	width: 20px;
+	margin-left: -75px;
+	margin-top: 10px;
+}
+/*.loop:hover{
+	content:url('../picture/musicplayer/loop1.png');
+}*/
+.queque-play{
+	
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 440px;
+	
+	overflow: auto;
+	overflow-x: hidden;
+	 background-color:  #1e1e1e;
+    color:white;
+    z-index: 1;
+}

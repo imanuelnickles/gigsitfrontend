@@ -1,0 +1,52 @@
+.artist-detail-tab,.artist-detail-tab:hover,.artist-detail-tab:focus{
+	background: transparent;
+	border-radius: 0;
+	border-style: none;
+	border-bottom: none;
+	color: white;
+}
+.nav-tabs.nav-justified>li>a, .nav-tabs.nav-justified>li>a:focus, .nav-tabs.nav-justified>li>a:hover{
+	background: transparent;
+	border-radius: 0;
+	color: white;
+	border-color:transparent;
+}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
+	background-color: #262626;
+	color: white;
+	border-radius: 0;
+	border-color:transparent;
+}
+.artist-song-table>td>a{
+	color: white;
+}
+.artist-song-table>td>a:hover{
+	color: #FFCC33;
+	border-style: none;
+}
+.song-detail-text{
+	color: white;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 18px;	
+}
+.song-button>a{
+	color: white;
+
+}
+.song-button>a:hover,.song-button>a:focus{
+	color: #FFCC33;
+	border-style: none;
+	text-decoration: none;
+}
+.song-detail-table{
+	margin-top: 2%;
+	margin-left: 6%;
+	color: white;
+}
+.song-detail-table>tbody>tr>td{
+	padding-left: 40px;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 16px;
+}

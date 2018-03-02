@@ -1,0 +1,66 @@
+/* Body*/
+body{
+	background-color: grey !important;
+}
+
+/*Profile Space*/
+.artist-profile{
+	margin-top: 2%;
+}
+.btn-update{
+	background-color: black !important;
+	color: #FFCC33 !important;
+}
+
+/*Navbar*/
+.panel-head-color{
+	
+	border-bottom: 1px white solid !important;
+}
+.panel-color{
+	background-color: rgba(0 ,0, 0, 0.7) !important;
+	color: white !important;
+
+	
+}
+
+.file-background{
+	background-color: rgba(0 ,0, 0, 0) !important;
+	border: none !important;
+	color: white !important;
+	box-shadow: none !important;
+}
+
+.navbar-artist{
+	background: black !important;
+	margin-bottom: 20px;
+}
+
+/*Text Color & Navigation Bar Hover*/
+.text-color,.text-color>li>a{
+	color: #FFCC33 !important;
+}
+.text-color>li>a:hover{
+	background: #FFCC33 !important;
+	color: black !important;
+}
+
+  /*Logout button*/
+  .logout>li>a:hover{
+  	background: transparent !important;
+  }
+ .logout-button{
+  	background: #FFCC33;
+  	color: black;
+  	border-radius: 10px;
+  	width: 80px;
+  	
+  	font-family: "Roboto";
+  	font-weight: 700;
+  	border: none;
+  }
+  .logout-button:hover{
+  	background: black;
+  	color: #FFCC33;
+  	
+  }

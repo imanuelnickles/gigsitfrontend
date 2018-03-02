@@ -1,0 +1,123 @@
+/*Global settings*/
+body{
+	background: white;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .mysearch {
+        margin-left: 0px;
+        z-index: 1000;
+    }
+}
+
+/*MainFrame starts here*/
+.navbar-left-top{
+	width: 60%;
+	
+}
+.logo-wrapper
+{
+	
+	width: 100px;
+	background-color: grey;
+
+}
+.logo-container
+{
+	width: 40%;
+	height: 10%;
+	background-color: red;
+}
+.logo
+{
+	
+	height: 60px;
+	margin-top:-5%;
+	
+}
+.top-pad{
+
+	padding-bottom:14px; 
+}
+.top-space{
+	padding-top: 10px;
+}
+.top-color{
+	
+  background: #262626; /* For browsers that do not support gradients */
+
+}
+.bottom-color{
+	background: #262626; /* For browsers that do not support gradients */
+/*  background: -webkit-linear-gradient(right,#262626,black, #262626); 
+  background: -o-linear-gradient(right,#262626, black, #262626); 
+  background: -moz-linear-gradient(right,#262626, black, #262626); /
+  background: linear-gradient(right,#262626, black, #262626); */
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:  #FFCC33;
+}
+.navbar-default .navbar-nav>li>a:focus {
+    color:  white;
+}
+.li-space
+{
+	margin-top: 1%;
+}
+
+.mysearch{
+	margin-top: 5%;
+	margin-left: 40%;
+	width: 120%;
+	height: 30px;
+	border: none;
+	z-index: -1000;
+	color: white;
+
+
+    background: #1e1e1e no-repeat 4px 4px; 
+    
+    outline:0; 
+    padding-left: 35px;
+     
+}
+
+.mysearch-header{
+	
+}
+.mysearch-button{
+	top:35%;
+	position: absolute;
+	margin-left:42%;
+	color:  white;
+	font-size: 25px;
+
+}
+.mysearch-button:hover{
+	color:#FFCC33;
+}
+
+/*Right Section*/
+.separator{
+	margin-top:10%;
+	color: white;
+}
+.profile-button{
+	margin-left: 0;
+}
+.top-right{
+	margin-top:0.5%;
+	margin-right: 5%;
+}
+
+/*MainFrame ends here*/
+
+
